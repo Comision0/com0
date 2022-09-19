@@ -69,6 +69,10 @@ function incluir_funcion_botones(){
         mostrar_conntenido("calendario_contenido");
     }
 
+    document.getElementById("ingreso_boton").onclick = function() {
+        mostrar_conntenido("ingreso_contenido");
+    }
+
     window.onresize = function(){
         var anchoVentana = window.innerWidth;
         if(anchoVentana >= 886){
