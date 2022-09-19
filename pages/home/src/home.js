@@ -73,6 +73,17 @@ function incluir_funcion_botones(){
         mostrar_conntenido("ingreso_contenido");
     }
 
+    document.getElementById("pdf_primera_vez_boton").onclick = function() {
+        mostrar_conntenido("pdf_primera_vez_contenido");
+    }
+
+    document.getElementById("pdf_de_otra_facultad_boton").onclick = function() {
+        mostrar_conntenido("pdf_de_otra_facultad");
+    }
+
+    document.getElementById("pdf_otra_carrera_boton").onclick = function() {
+        mostrar_conntenido("pdf_otra_carrera");
+    }
     window.onresize = function(){
         var anchoVentana = window.innerWidth;
         if(anchoVentana >= 886){
